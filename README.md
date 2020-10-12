@@ -9,7 +9,7 @@ de projeto oferecido pelo angular.
 ## Backend
 Este projeto não tem um "back-end", contudo, há um aquivo que
 simula um servidor chamado *serve.js*. Para executar este 'servidor'
-basta instalar as depêndencias do arquivo *package.json* e em seguida,
+basta instalar as depêndencias do arquivo *package.json* (contido na pasta servidor) e em seguida,
 executar o servidor.
 
 ```
