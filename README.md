@@ -17,6 +17,6 @@ npm install
 node serve.js
 ```
 
-* Observação: é recomendado executar o *back-end* e *front-end* 
+* Observação: é recomendado executar o *back-end* (pasta servidor) e *front-end* (app Angular) 
 em pastas (e locais) separados, a pasta servidor foi colocada na mesma pasta
 da aplicação angular por comodidade.
