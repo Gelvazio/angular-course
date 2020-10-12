@@ -1,27 +1,22 @@
 # AppCourse
+---
+Este repositório contém a implementação do projeto **Introdução ao Angular**,
+material produzido pela [Digital Innovation One](https://digitalinnovation.one).
+Neste aplicativo é apresentado uma lista de cursos que podem ser
+consultados, editados e excluídos. As configurações seguem o padrão
+de projeto oferecido pelo angular.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.0.
+## Backend
+Este projeto não tem um "back-end", contudo, há um aquivo que
+simula um servidor chamado *serve.js*. Para executar este 'servidor'
+basta instalar as depêndencias do arquivo *package.json* e em seguida,
+executar o servidor.
 
-## Development server
+```
+npm install
+node serve.js
+```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+* Observação: é recomendado executar o *back-end* e *front-end* 
+em pastas (e locais) separados, a pasta servidor foi colocada na mesma pasta
+da aplicação angular por comodidade.
